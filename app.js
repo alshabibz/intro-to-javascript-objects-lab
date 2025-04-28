@@ -175,7 +175,7 @@ game.catchPokemon = (pokemonObj) =>{
     pokeball.quantity -= 1;
   }
 };
-const newPokemon = pokemon.find(pokemon => pokemon.name === "Dragonite");
+const anotherPokemon = pokemon.find(pokemon => pokemon.name === "Dragonite");
 game.catchPokemon(newPokemon);
 console.log(game.items);
 console.log('===================================')
